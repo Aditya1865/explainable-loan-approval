@@ -68,6 +68,7 @@ http://127.0.0.1:8000/docs
 
 5️⃣ Start Streamlit Frontend
 streamlit run frontend/app.py
+```
 🔍 Explainability
 SHAP
 Explains feature impact on predictions
