@@ -57,18 +57,29 @@ explainable-loan-approval/
 ```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 2️⃣ Install Dependencies
+```
 pip install -r requirements.txt
+```
 3️⃣ Train the Model
+```
 python train_model.py
+```
+
 4️⃣ Start FastAPI Backend
+```
 uvicorn backend.main:app --reload
 Open:
 http://127.0.0.1:8000/docs
+```
 
 5️⃣ Start Streamlit Frontend
+```
 streamlit run frontend/app.py
 ```
+
+
 🔍 Explainability
 SHAP
 Explains feature impact on predictions
